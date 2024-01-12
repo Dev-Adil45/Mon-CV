@@ -6,7 +6,6 @@
 body {
   max-width: 1160px;
   margin: 0 auto;
-  text-align: center;
   border-right: 2px solid black;
 }
 .header {
@@ -54,4 +53,27 @@ nav li a:hover {
   color: rgba(155, 138, 138, 0.74);
   text-decoration: underline;
   letter-spacing: 1px;
+}
+
+.main_section {
+  display: flex;
+  flex-direction: row;
+}
+aside {
+  width: 20%;
+  color: aliceblue;
+  background-color: #782221;
+}
+#about {
+  margin-left: 20px;
+  width: 90%;
+  text-align: left;
+  text-indent: 20%;
+}
+
+aside h3 {
+  margin-right: 30px;
+  padding-left: 10px;
+  background-color: #dbc2a4;
+  color: black;
 }
